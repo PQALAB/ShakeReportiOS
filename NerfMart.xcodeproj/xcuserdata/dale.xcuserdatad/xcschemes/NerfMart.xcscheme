@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0720"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -85,7 +85,25 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "API_KEY=&quot;27d55f7a4eccf4d24f37904f78f09a469e469e53&quot;&#10;APP_ID=&quot;438&quot; #example: 1&#10;PASSWORD=&quot;your-password&quot;&#10;AVAILABILITY=&quot;10_minutes&quot; #10_minutes, 1_hour, 3_hours, 6_hours, 12_hours, 24_hours, forever&#10;TMP_FILE_PATH=&quot;/tmp/${PRODUCT_NAME}.ipa&quot;&#10;&#10;xcrun -sdk iphoneos PackageApplication &quot;$ARCHIVE_PRODUCTS_PATH/$INSTALL_PATH/$WRAPPER_NAME&quot; -o &quot;${TMP_FILE_PATH}&quot;&#10;OUTPUT=$(/usr/bin/curl &quot;https://apps.betacrash.com/api/upload&quot; -F api_key=&quot;${API_KEY}&quot; -F app_id=&quot;${APP_ID}&quot; -F file=@&quot;${TMP_FILE_PATH}&quot; -F availability=&quot;${AVAILABILITY}&quot; -F passcode=&quot;${PASSWORD}&quot;) #the password parametre is optional here&#10;URL=$(echo $OUTPUT | python -m json.tool | sed -n -e &apos;/&quot;file_url&quot;:/ s/^.*&quot;\(.*\)&quot;.*/\1/p&apos;)&#10;&#10;echo $URL | pbcopy&#10;osascript -e &apos;display notification &quot;Copied to clipboard: &apos;$URL&apos;&quot; with title &quot;BetaCrash&quot;&apos;&#10;open $URL">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "2D287E9C1E92BC1C00289017"
+                     BuildableName = "NerfMart.app"
+                     BlueprintName = "NerfMart"
+                     ReferencedContainer = "container:NerfMart.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
    </ArchiveAction>
 </Scheme>

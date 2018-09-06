@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Library/Screen Record/CaptureRecord.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -14,4 +15,5 @@
 
 
 @end
+
 

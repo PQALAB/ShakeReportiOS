@@ -7,16 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D25E2871EA538E500B1ED53 /* SRModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2861EA538E500B1ED53 /* SRModalViewController.m */; };
+		2D25E28B1EA5393700B1ED53 /* UIWindow+SRReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E28A1EA5393700B1ED53 /* UIWindow+SRReporter.m */; };
+		2D25E28E1EA5399600B1ED53 /* SRVideoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E28D1EA5399600B1ED53 /* SRVideoReporter.m */; };
+		2D25E2901EA539DF00B1ED53 /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E28F1EA539DF00B1ED53 /* SRViewController.m */; };
+		2D25E2911EA53A1800B1ED53 /* SRUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC51E92BD9400289017 /* SRUtils.m */; };
+		2D25E2921EA53A1800B1ED53 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC71E92BD9400289017 /* NSData+Base64.m */; };
+		2D25E2931EA53A1800B1ED53 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC81E92BD9400289017 /* NSString+HTML.m */; };
+		2D25E29A1EA53A6600B1ED53 /* SRVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2941EA53A6600B1ED53 /* SRVideoWriter.m */; };
+		2D25E29B1EA53A6600B1ED53 /* SRCameraRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2951EA53A6600B1ED53 /* SRCameraRecorder.m */; };
+		2D25E29C1EA53A6600B1ED53 /* SRCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2961EA53A6600B1ED53 /* SRCGUtils.m */; };
+		2D25E29D1EA53A6600B1ED53 /* SRRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2971EA53A6600B1ED53 /* SRRecorder.m */; };
+		2D25E29E1EA53A6600B1ED53 /* SRUITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2981EA53A6600B1ED53 /* SRUITouch.m */; };
+		2D25E29F1EA53A6600B1ED53 /* SRUIViewRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25E2991EA53A6600B1ED53 /* SRUIViewRecorder.m */; };
+		2D25E2A01EA53A7400B1ED53 /* SRDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EBF1E92BD9400289017 /* SRDefines.m */; };
+		2D25E2A11EA53A8800B1ED53 /* SRVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC61E92BD9400289017 /* SRVideo.m */; };
+		2D25E2A21EA53A9F00B1ED53 /* SRScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC11E92BD9400289017 /* SRScreenRecorder.m */; };
+		2D25E2A41EA53AE600B1ED53 /* SRReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D25E2A31EA53AE600B1ED53 /* SRReportViewController.xib */; };
 		2D287EA21E92BC1C00289017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EA11E92BC1C00289017 /* main.m */; };
 		2D287EA51E92BC1C00289017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EA41E92BC1C00289017 /* AppDelegate.m */; };
-		2D287EA81E92BC1C00289017 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EA71E92BC1C00289017 /* FirstViewController.m */; };
-		2D287EAB1E92BC1C00289017 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EAA1E92BC1C00289017 /* SecondViewController.m */; };
 		2D287EAE1E92BC1C00289017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D287EAC1E92BC1C00289017 /* Main.storyboard */; };
 		2D287EB01E92BC1C00289017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D287EAF1E92BC1C00289017 /* Assets.xcassets */; };
 		2D287EB31E92BC1C00289017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D287EB11E92BC1C00289017 /* LaunchScreen.storyboard */; };
+		2D287EE71E92BE7E00289017 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EE61E92BE7E00289017 /* MobileCoreServices.framework */; };
+		2D287EE91E92BE8300289017 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EE81E92BE8300289017 /* CFNetwork.framework */; };
+		2D287EEB1E92BE8B00289017 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EEA1E92BE8B00289017 /* Security.framework */; };
+		2D287EED1E92BE9200289017 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EEC1E92BE9200289017 /* MessageUI.framework */; };
+		2D287EEF1E92BE9A00289017 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EEE1E92BE9A00289017 /* QuartzCore.framework */; };
+		2D287EF11E92BEA300289017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EF01E92BEA300289017 /* UIKit.framework */; };
+		2D287EF31E92BEAC00289017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EF21E92BEAC00289017 /* Foundation.framework */; };
+		2D287EF51E92BEB400289017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EF41E92BEB400289017 /* CoreGraphics.framework */; };
+		2D287EF71E92BEC500289017 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EF61E92BEC500289017 /* CoreVideo.framework */; };
+		2D287EF91E92BECC00289017 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EF81E92BECC00289017 /* CoreMedia.framework */; };
+		2D287EFB1E92BED300289017 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EFA1E92BED300289017 /* AVFoundation.framework */; };
+		2D287EFD1E92BEDA00289017 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D287EFC1E92BEDA00289017 /* AssetsLibrary.framework */; };
+		2D287F721E92D01B00289017 /* SRImageEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D287F711E92D01B00289017 /* SRImageEditorViewController.xib */; };
+		2D287F851E92E75100289017 /* SRReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287ECC1E92BD9400289017 /* SRReporter.m */; };
+		2D287F861E92E77300289017 /* SRHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC91E92BD9400289017 /* SRHTTPClient.m */; };
+		2D287F871E92E77400289017 /* SRImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287ECA1E92BD9400289017 /* SRImageEditorViewController.m */; };
+		2D287F881E92E77400289017 /* SRMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287ECB1E92BD9400289017 /* SRMethodSwizzler.m */; };
+		2D287F891E92E78800289017 /* SRReportLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287ECD1E92BD9400289017 /* SRReportLoadingView.m */; };
+		2D287F8A1E92E78800289017 /* SRReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287ECE1E92BD9400289017 /* SRReportViewController.m */; };
+		2D287F8B1E93193600289017 /* SRUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D287EC41E92BD9400289017 /* SRUIWindow.m */; };
+		2D7B05F21F18286500E1F4AF /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05EA1F18286400E1F4AF /* bug.png */; };
+		2D7B05F31F18286500E1F4AF /* color-pallette.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05EB1F18286500E1F4AF /* color-pallette.png */; };
+		2D7B05F41F18286500E1F4AF /* RomanT-01.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05EC1F18286500E1F4AF /* RomanT-01.svg.png */; };
+		2D7B05F51F18286500E1F4AF /* 1000px-Square_-_black_simple.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05ED1F18286500E1F4AF /* 1000px-Square_-_black_simple.svg.png */; };
+		2D7B05F61F18286500E1F4AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05EE1F18286500E1F4AF /* Default-568h@2x.png */; };
+		2D7B05F71F18286500E1F4AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05EF1F18286500E1F4AF /* Default.png */; };
+		2D7B05F81F18286500E1F4AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05F01F18286500E1F4AF /* Default@2x.png */; };
+		2D7B05F91F18286500E1F4AF /* logo-betacrash-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05F11F18286500E1F4AF /* logo-betacrash-gradient.png */; };
+		2D7B05FB1F1828AC00E1F4AF /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05FA1F1828AC00E1F4AF /* undo.png */; };
+		2D7B05FD1F18292500E1F4AF /* Editing-Color-Dropper-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B05FC1F18292400E1F4AF /* Editing-Color-Dropper-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D25E2861EA538E500B1ED53 /* SRModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRModalViewController.m; path = ../../ShakeReport/ShakeReport/SRModalViewController.m; sourceTree = "<group>"; };
+		2D25E2881EA5391300B1ED53 /* SRReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportViewController.m; path = NerfMart/Library/SRReportViewController.m; sourceTree = "<group>"; };
+		2D25E2891EA5393700B1ED53 /* SRReportLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportLoadingView.m; path = NerfMart/Library/SRReportLoadingView.m; sourceTree = "<group>"; };
+		2D25E28A1EA5393700B1ED53 /* UIWindow+SRReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+SRReporter.m"; path = "NerfMart/Library/UIWindow+SRReporter.m"; sourceTree = "<group>"; };
+		2D25E28C1EA5397000B1ED53 /* SRReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportViewController.m; path = NerfMart/Library/SRReportViewController.m; sourceTree = "<group>"; };
+		2D25E28D1EA5399600B1ED53 /* SRVideoReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoReporter.m; path = NerfMart/Library/SRVideoReporter.m; sourceTree = "<group>"; };
+		2D25E28F1EA539DF00B1ED53 /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRViewController.m; path = ../../ShakeReport/ShakeReport/SRViewController.m; sourceTree = "<group>"; };
+		2D25E2941EA53A6600B1ED53 /* SRVideoWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoWriter.m; path = "NerfMart/Library/Screen Record/SRVideoWriter.m"; sourceTree = "<group>"; };
+		2D25E2951EA53A6600B1ED53 /* SRCameraRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCameraRecorder.m; path = "NerfMart/Library/Screen Record/SRCameraRecorder.m"; sourceTree = "<group>"; };
+		2D25E2961EA53A6600B1ED53 /* SRCGUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCGUtils.m; path = "NerfMart/Library/Screen Record/SRCGUtils.m"; sourceTree = "<group>"; };
+		2D25E2971EA53A6600B1ED53 /* SRRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRRecorder.m; path = "NerfMart/Library/Screen Record/SRRecorder.m"; sourceTree = "<group>"; };
+		2D25E2981EA53A6600B1ED53 /* SRUITouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUITouch.m; path = "NerfMart/Library/Screen Record/SRUITouch.m"; sourceTree = "<group>"; };
+		2D25E2991EA53A6600B1ED53 /* SRUIViewRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUIViewRecorder.m; path = "NerfMart/Library/Screen Record/SRUIViewRecorder.m"; sourceTree = "<group>"; };
+		2D25E2A31EA53AE600B1ED53 /* SRReportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SRReportViewController.xib; path = NerfMart/Library/SRReportViewController.xib; sourceTree = "<group>"; };
 		2D287E9D1E92BC1C00289017 /* NerfMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerfMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D287EA11E92BC1C00289017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D287EA31E92BC1C00289017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +88,54 @@
 		2D287EAF1E92BC1C00289017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D287EB21E92BC1C00289017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D287EB41E92BC1C00289017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D287EBA1E92BC8600289017 /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Library; sourceTree = "<group>"; };
+		2D287EBC1E92BD9400289017 /* SRVideoWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoWriter.m; path = "NerfMart/Library/Screen Record/SRVideoWriter.m"; sourceTree = "<group>"; };
+		2D287EBD1E92BD9400289017 /* SRCameraRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCameraRecorder.m; path = "NerfMart/Library/Screen Record/SRCameraRecorder.m"; sourceTree = "<group>"; };
+		2D287EBE1E92BD9400289017 /* SRCGUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCGUtils.m; path = "NerfMart/Library/Screen Record/SRCGUtils.m"; sourceTree = "<group>"; };
+		2D287EBF1E92BD9400289017 /* SRDefines.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRDefines.m; path = "NerfMart/Library/Screen Record/SRDefines.m"; sourceTree = "<group>"; };
+		2D287EC01E92BD9400289017 /* SRRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRRecorder.m; path = "NerfMart/Library/Screen Record/SRRecorder.m"; sourceTree = "<group>"; };
+		2D287EC11E92BD9400289017 /* SRScreenRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRScreenRecorder.m; path = "NerfMart/Library/Screen Record/SRScreenRecorder.m"; sourceTree = "<group>"; };
+		2D287EC21E92BD9400289017 /* SRUITouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUITouch.m; path = "NerfMart/Library/Screen Record/SRUITouch.m"; sourceTree = "<group>"; };
+		2D287EC31E92BD9400289017 /* SRUIViewRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUIViewRecorder.m; path = "NerfMart/Library/Screen Record/SRUIViewRecorder.m"; sourceTree = "<group>"; };
+		2D287EC41E92BD9400289017 /* SRUIWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUIWindow.m; path = "NerfMart/Library/Screen Record/SRUIWindow.m"; sourceTree = "<group>"; };
+		2D287EC51E92BD9400289017 /* SRUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRUtils.m; path = "NerfMart/Library/Screen Record/SRUtils.m"; sourceTree = "<group>"; };
+		2D287EC61E92BD9400289017 /* SRVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideo.m; path = "NerfMart/Library/Screen Record/SRVideo.m"; sourceTree = "<group>"; };
+		2D287EC71E92BD9400289017 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "NerfMart/Library/NSData+Base64.m"; sourceTree = "<group>"; };
+		2D287EC81E92BD9400289017 /* NSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "NerfMart/Library/NSString+HTML.m"; sourceTree = "<group>"; };
+		2D287EC91E92BD9400289017 /* SRHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRHTTPClient.m; path = NerfMart/Library/SRHTTPClient.m; sourceTree = "<group>"; };
+		2D287ECA1E92BD9400289017 /* SRImageEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRImageEditorViewController.m; path = NerfMart/Library/SRImageEditorViewController.m; sourceTree = "<group>"; };
+		2D287ECB1E92BD9400289017 /* SRMethodSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRMethodSwizzler.m; path = NerfMart/Library/SRMethodSwizzler.m; sourceTree = "<group>"; };
+		2D287ECC1E92BD9400289017 /* SRReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReporter.m; path = NerfMart/Library/SRReporter.m; sourceTree = "<group>"; };
+		2D287ECD1E92BD9400289017 /* SRReportLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportLoadingView.m; path = NerfMart/Library/SRReportLoadingView.m; sourceTree = "<group>"; };
+		2D287ECE1E92BD9400289017 /* SRReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportViewController.m; path = NerfMart/Library/SRReportViewController.m; sourceTree = "<group>"; };
+		2D287ECF1E92BD9400289017 /* SRVideoReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoReporter.m; path = NerfMart/Library/SRVideoReporter.m; sourceTree = "<group>"; };
+		2D287ED01E92BD9400289017 /* UIWindow+SRReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+SRReporter.m"; path = "NerfMart/Library/UIWindow+SRReporter.m"; sourceTree = "<group>"; };
+		2D287EE61E92BE7E00289017 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2D287EE81E92BE8300289017 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2D287EEA1E92BE8B00289017 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2D287EEC1E92BE9200289017 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2D287EEE1E92BE9A00289017 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D287EF01E92BEA300289017 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D287EF21E92BEAC00289017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D287EF41E92BEB400289017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D287EF61E92BEC500289017 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2D287EF81E92BECC00289017 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2D287EFA1E92BED300289017 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D287EFC1E92BEDA00289017 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2D287F6F1E92C87000289017 /* SRMethodSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRMethodSwizzler.m; path = NerfMart/Library/SRMethodSwizzler.m; sourceTree = "<group>"; };
+		2D287F711E92D01B00289017 /* SRImageEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SRImageEditorViewController.xib; path = NerfMart/Library/SRImageEditorViewController.xib; sourceTree = "<group>"; };
+		2D287F821E92E57600289017 /* SRImageEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRImageEditorViewController.m; path = NerfMart/Library/SRImageEditorViewController.m; sourceTree = "<group>"; };
+		2D287F831E92E69800289017 /* SRModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRModalViewController.m; path = ../../ShakeReport/ShakeReport/SRModalViewController.m; sourceTree = "<group>"; };
+		2D7B05EA1F18286400E1F4AF /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug.png; path = NerfMart/bug.png; sourceTree = "<group>"; };
+		2D7B05EB1F18286500E1F4AF /* color-pallette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "color-pallette.png"; path = "NerfMart/color-pallette.png"; sourceTree = "<group>"; };
+		2D7B05EC1F18286500E1F4AF /* RomanT-01.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RomanT-01.svg.png"; path = "NerfMart/RomanT-01.svg.png"; sourceTree = "<group>"; };
+		2D7B05ED1F18286500E1F4AF /* 1000px-Square_-_black_simple.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1000px-Square_-_black_simple.svg.png"; path = "NerfMart/1000px-Square_-_black_simple.svg.png"; sourceTree = "<group>"; };
+		2D7B05EE1F18286500E1F4AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "NerfMart/Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D7B05EF1F18286500E1F4AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = NerfMart/Default.png; sourceTree = "<group>"; };
+		2D7B05F01F18286500E1F4AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "NerfMart/Default@2x.png"; sourceTree = "<group>"; };
+		2D7B05F11F18286500E1F4AF /* logo-betacrash-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-betacrash-gradient.png"; path = "NerfMart/logo-betacrash-gradient.png"; sourceTree = "<group>"; };
+		2D7B05FA1F1828AC00E1F4AF /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = undo.png; path = NerfMart/undo.png; sourceTree = "<group>"; };
+		2D7B05FC1F18292400E1F4AF /* Editing-Color-Dropper-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Editing-Color-Dropper-icon.png"; path = "NerfMart/Editing-Color-Dropper-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +143,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D287EFD1E92BEDA00289017 /* AssetsLibrary.framework in Frameworks */,
+				2D287EFB1E92BED300289017 /* AVFoundation.framework in Frameworks */,
+				2D287EF91E92BECC00289017 /* CoreMedia.framework in Frameworks */,
+				2D287EF71E92BEC500289017 /* CoreVideo.framework in Frameworks */,
+				2D287EF51E92BEB400289017 /* CoreGraphics.framework in Frameworks */,
+				2D287EF31E92BEAC00289017 /* Foundation.framework in Frameworks */,
+				2D287EF11E92BEA300289017 /* UIKit.framework in Frameworks */,
+				2D287EEF1E92BE9A00289017 /* QuartzCore.framework in Frameworks */,
+				2D287EED1E92BE9200289017 /* MessageUI.framework in Frameworks */,
+				2D287EEB1E92BE8B00289017 /* Security.framework in Frameworks */,
+				2D287EE91E92BE8300289017 /* CFNetwork.framework in Frameworks */,
+				2D287EE71E92BE7E00289017 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +164,67 @@
 		2D287E941E92BC1C00289017 = {
 			isa = PBXGroup;
 			children = (
+				2D7B05EA1F18286400E1F4AF /* bug.png */,
+				2D7B05EB1F18286500E1F4AF /* color-pallette.png */,
+				2D7B05EC1F18286500E1F4AF /* RomanT-01.svg.png */,
+				2D7B05ED1F18286500E1F4AF /* 1000px-Square_-_black_simple.svg.png */,
+				2D7B05EE1F18286500E1F4AF /* Default-568h@2x.png */,
+				2D7B05EF1F18286500E1F4AF /* Default.png */,
+				2D7B05F01F18286500E1F4AF /* Default@2x.png */,
+				2D7B05F11F18286500E1F4AF /* logo-betacrash-gradient.png */,
+				2D25E2A31EA53AE600B1ED53 /* SRReportViewController.xib */,
+				2D25E2941EA53A6600B1ED53 /* SRVideoWriter.m */,
+				2D25E2951EA53A6600B1ED53 /* SRCameraRecorder.m */,
+				2D25E2961EA53A6600B1ED53 /* SRCGUtils.m */,
+				2D25E2971EA53A6600B1ED53 /* SRRecorder.m */,
+				2D25E2981EA53A6600B1ED53 /* SRUITouch.m */,
+				2D25E2991EA53A6600B1ED53 /* SRUIViewRecorder.m */,
+				2D25E28F1EA539DF00B1ED53 /* SRViewController.m */,
+				2D25E28D1EA5399600B1ED53 /* SRVideoReporter.m */,
+				2D25E28C1EA5397000B1ED53 /* SRReportViewController.m */,
+				2D25E2891EA5393700B1ED53 /* SRReportLoadingView.m */,
+				2D25E28A1EA5393700B1ED53 /* UIWindow+SRReporter.m */,
+				2D25E2881EA5391300B1ED53 /* SRReportViewController.m */,
+				2D25E2861EA538E500B1ED53 /* SRModalViewController.m */,
+				2D287F831E92E69800289017 /* SRModalViewController.m */,
+				2D287F821E92E57600289017 /* SRImageEditorViewController.m */,
+				2D287F711E92D01B00289017 /* SRImageEditorViewController.xib */,
+				2D7B05FC1F18292400E1F4AF /* Editing-Color-Dropper-icon.png */,
+				2D7B05FA1F1828AC00E1F4AF /* undo.png */,
+				2D287F6F1E92C87000289017 /* SRMethodSwizzler.m */,
+				2D287EFC1E92BEDA00289017 /* AssetsLibrary.framework */,
+				2D287EFA1E92BED300289017 /* AVFoundation.framework */,
+				2D287EF81E92BECC00289017 /* CoreMedia.framework */,
+				2D287EF61E92BEC500289017 /* CoreVideo.framework */,
+				2D287EF41E92BEB400289017 /* CoreGraphics.framework */,
+				2D287EF21E92BEAC00289017 /* Foundation.framework */,
+				2D287EF01E92BEA300289017 /* UIKit.framework */,
+				2D287EEE1E92BE9A00289017 /* QuartzCore.framework */,
+				2D287EEC1E92BE9200289017 /* MessageUI.framework */,
+				2D287EEA1E92BE8B00289017 /* Security.framework */,
+				2D287EE81E92BE8300289017 /* CFNetwork.framework */,
+				2D287EE61E92BE7E00289017 /* MobileCoreServices.framework */,
+				2D287EBC1E92BD9400289017 /* SRVideoWriter.m */,
+				2D287EBD1E92BD9400289017 /* SRCameraRecorder.m */,
+				2D287EBE1E92BD9400289017 /* SRCGUtils.m */,
+				2D287EBF1E92BD9400289017 /* SRDefines.m */,
+				2D287EC01E92BD9400289017 /* SRRecorder.m */,
+				2D287EC11E92BD9400289017 /* SRScreenRecorder.m */,
+				2D287EC21E92BD9400289017 /* SRUITouch.m */,
+				2D287EC31E92BD9400289017 /* SRUIViewRecorder.m */,
+				2D287EC41E92BD9400289017 /* SRUIWindow.m */,
+				2D287EC51E92BD9400289017 /* SRUtils.m */,
+				2D287EC61E92BD9400289017 /* SRVideo.m */,
+				2D287EC71E92BD9400289017 /* NSData+Base64.m */,
+				2D287EC81E92BD9400289017 /* NSString+HTML.m */,
+				2D287EC91E92BD9400289017 /* SRHTTPClient.m */,
+				2D287ECA1E92BD9400289017 /* SRImageEditorViewController.m */,
+				2D287ECB1E92BD9400289017 /* SRMethodSwizzler.m */,
+				2D287ECC1E92BD9400289017 /* SRReporter.m */,
+				2D287ECD1E92BD9400289017 /* SRReportLoadingView.m */,
+				2D287ECE1E92BD9400289017 /* SRReportViewController.m */,
+				2D287ECF1E92BD9400289017 /* SRVideoReporter.m */,
+				2D287ED01E92BD9400289017 /* UIWindow+SRReporter.m */,
 				2D287E9F1E92BC1C00289017 /* NerfMart */,
 				2D287E9E1E92BC1C00289017 /* Products */,
 			);
@@ -61,6 +241,7 @@
 		2D287E9F1E92BC1C00289017 /* NerfMart */ = {
 			isa = PBXGroup;
 			children = (
+				2D287EBA1E92BC8600289017 /* Library */,
 				2D287EA31E92BC1C00289017 /* AppDelegate.h */,
 				2D287EA41E92BC1C00289017 /* AppDelegate.m */,
 				2D287EA61E92BC1C00289017 /* FirstViewController.h */,
@@ -115,6 +296,7 @@
 				TargetAttributes = {
 					2D287E9C1E92BC1C00289017 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4CJSVSLP54;
 					};
 				};
 			};
@@ -141,9 +323,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D287EB31E92BC1C00289017 /* LaunchScreen.storyboard in Resources */,
-				2D287EB01E92BC1C00289017 /* Assets.xcassets in Resources */,
+				2D7B05FD1F18292500E1F4AF /* Editing-Color-Dropper-icon.png in Resources */,
+				2D7B05F81F18286500E1F4AF /* Default@2x.png in Resources */,
+				2D7B05F21F18286500E1F4AF /* bug.png in Resources */,
+				2D7B05F51F18286500E1F4AF /* 1000px-Square_-_black_simple.svg.png in Resources */,
+				2D7B05F91F18286500E1F4AF /* logo-betacrash-gradient.png in Resources */,
+				2D7B05F41F18286500E1F4AF /* RomanT-01.svg.png in Resources */,
+				2D7B05F61F18286500E1F4AF /* Default-568h@2x.png in Resources */,
+				2D7B05F31F18286500E1F4AF /* color-pallette.png in Resources */,
+				2D25E2A41EA53AE600B1ED53 /* SRReportViewController.xib in Resources */,
+				2D287F721E92D01B00289017 /* SRImageEditorViewController.xib in Resources */,
 				2D287EAE1E92BC1C00289017 /* Main.storyboard in Resources */,
+				2D287EB31E92BC1C00289017 /* LaunchScreen.storyboard in Resources */,
+				2D7B05FB1F1828AC00E1F4AF /* undo.png in Resources */,
+				2D287EB01E92BC1C00289017 /* Assets.xcassets in Resources */,
+				2D7B05F71F18286500E1F4AF /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +348,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D287EAB1E92BC1C00289017 /* SecondViewController.m in Sources */,
+				2D25E29C1EA53A6600B1ED53 /* SRCGUtils.m in Sources */,
+				2D25E2A01EA53A7400B1ED53 /* SRDefines.m in Sources */,
+				2D25E29F1EA53A6600B1ED53 /* SRUIViewRecorder.m in Sources */,
+				2D25E2A11EA53A8800B1ED53 /* SRVideo.m in Sources */,
+				2D25E29B1EA53A6600B1ED53 /* SRCameraRecorder.m in Sources */,
+				2D25E29E1EA53A6600B1ED53 /* SRUITouch.m in Sources */,
+				2D25E29A1EA53A6600B1ED53 /* SRVideoWriter.m in Sources */,
+				2D25E2A21EA53A9F00B1ED53 /* SRScreenRecorder.m in Sources */,
+				2D25E29D1EA53A6600B1ED53 /* SRRecorder.m in Sources */,
+				2D287F8B1E93193600289017 /* SRUIWindow.m in Sources */,
+				2D25E2911EA53A1800B1ED53 /* SRUtils.m in Sources */,
+				2D25E2921EA53A1800B1ED53 /* NSData+Base64.m in Sources */,
+				2D25E2931EA53A1800B1ED53 /* NSString+HTML.m in Sources */,
+				2D287F881E92E77400289017 /* SRMethodSwizzler.m in Sources */,
+				2D25E28E1EA5399600B1ED53 /* SRVideoReporter.m in Sources */,
+				2D25E28B1EA5393700B1ED53 /* UIWindow+SRReporter.m in Sources */,
+				2D287F891E92E78800289017 /* SRReportLoadingView.m in Sources */,
+				2D25E2901EA539DF00B1ED53 /* SRViewController.m in Sources */,
+				2D25E2871EA538E500B1ED53 /* SRModalViewController.m in Sources */,
+				2D287F851E92E75100289017 /* SRReporter.m in Sources */,
+				2D287F8A1E92E78800289017 /* SRReportViewController.m in Sources */,
+				2D287F871E92E77400289017 /* SRImageEditorViewController.m in Sources */,
+				2D287F861E92E77300289017 /* SRHTTPClient.m in Sources */,
 				2D287EA51E92BC1C00289017 /* AppDelegate.m in Sources */,
-				2D287EA81E92BC1C00289017 /* FirstViewController.m in Sources */,
 				2D287EA21E92BC1C00289017 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +418,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -247,7 +462,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -267,7 +482,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CJSVSLP54;
 				INFOPLIST_FILE = NerfMart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = plusQA.NerfMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +495,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CJSVSLP54;
 				INFOPLIST_FILE = NerfMart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = plusQA.NerfMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +523,7 @@
 				2D287EB91E92BC1C00289017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
