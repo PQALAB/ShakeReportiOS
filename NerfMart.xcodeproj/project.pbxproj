@@ -62,13 +62,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D25E2861EA538E500B1ED53 /* SRModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRModalViewController.m; path = ../../ShakeReport/ShakeReport/SRModalViewController.m; sourceTree = "<group>"; };
+		2D25E2861EA538E500B1ED53 /* SRModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRModalViewController.m; path = ../ShakeReportOG/ShakeReport/SRModalViewController.m; sourceTree = "<group>"; };
 		2D25E2881EA5391300B1ED53 /* SRReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportViewController.m; path = NerfMart/Library/SRReportViewController.m; sourceTree = "<group>"; };
 		2D25E2891EA5393700B1ED53 /* SRReportLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportLoadingView.m; path = NerfMart/Library/SRReportLoadingView.m; sourceTree = "<group>"; };
 		2D25E28A1EA5393700B1ED53 /* UIWindow+SRReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+SRReporter.m"; path = "NerfMart/Library/UIWindow+SRReporter.m"; sourceTree = "<group>"; };
 		2D25E28C1EA5397000B1ED53 /* SRReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRReportViewController.m; path = NerfMart/Library/SRReportViewController.m; sourceTree = "<group>"; };
 		2D25E28D1EA5399600B1ED53 /* SRVideoReporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoReporter.m; path = NerfMart/Library/SRVideoReporter.m; sourceTree = "<group>"; };
-		2D25E28F1EA539DF00B1ED53 /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRViewController.m; path = ../../ShakeReport/ShakeReport/SRViewController.m; sourceTree = "<group>"; };
+		2D25E28F1EA539DF00B1ED53 /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRViewController.m; path = ../ShakeReportOG/ShakeReport/SRViewController.m; sourceTree = "<group>"; };
 		2D25E2941EA53A6600B1ED53 /* SRVideoWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRVideoWriter.m; path = "NerfMart/Library/Screen Record/SRVideoWriter.m"; sourceTree = "<group>"; };
 		2D25E2951EA53A6600B1ED53 /* SRCameraRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCameraRecorder.m; path = "NerfMart/Library/Screen Record/SRCameraRecorder.m"; sourceTree = "<group>"; };
 		2D25E2961EA53A6600B1ED53 /* SRCGUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRCGUtils.m; path = "NerfMart/Library/Screen Record/SRCGUtils.m"; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 		2D287F6F1E92C87000289017 /* SRMethodSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRMethodSwizzler.m; path = NerfMart/Library/SRMethodSwizzler.m; sourceTree = "<group>"; };
 		2D287F711E92D01B00289017 /* SRImageEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SRImageEditorViewController.xib; path = NerfMart/Library/SRImageEditorViewController.xib; sourceTree = "<group>"; };
 		2D287F821E92E57600289017 /* SRImageEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRImageEditorViewController.m; path = NerfMart/Library/SRImageEditorViewController.m; sourceTree = "<group>"; };
-		2D287F831E92E69800289017 /* SRModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SRModalViewController.m; path = ../../ShakeReport/ShakeReport/SRModalViewController.m; sourceTree = "<group>"; };
 		2D7B05EA1F18286400E1F4AF /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug.png; path = NerfMart/bug.png; sourceTree = "<group>"; };
 		2D7B05EB1F18286500E1F4AF /* color-pallette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "color-pallette.png"; path = "NerfMart/color-pallette.png"; sourceTree = "<group>"; };
 		2D7B05EC1F18286500E1F4AF /* RomanT-01.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RomanT-01.svg.png"; path = "NerfMart/RomanT-01.svg.png"; sourceTree = "<group>"; };
@@ -186,7 +185,6 @@
 				2D25E28A1EA5393700B1ED53 /* UIWindow+SRReporter.m */,
 				2D25E2881EA5391300B1ED53 /* SRReportViewController.m */,
 				2D25E2861EA538E500B1ED53 /* SRModalViewController.m */,
-				2D287F831E92E69800289017 /* SRModalViewController.m */,
 				2D287F821E92E57600289017 /* SRImageEditorViewController.m */,
 				2D287F711E92D01B00289017 /* SRImageEditorViewController.xib */,
 				2D7B05FC1F18292400E1F4AF /* Editing-Color-Dropper-icon.png */,
