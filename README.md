@@ -16,8 +16,6 @@ Shake the iDevice, and they will send:
 * the crash report if a crash has been reported
 * the dumped view hierarchy
 
-<a href="http://shakereport.com/">Go to our website to get more information</a>
-
 # Installation
 
 Add those frameworks to your target:
