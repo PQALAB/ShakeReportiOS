@@ -11,10 +11,6 @@ Shake the iDevice, and they will send:
 
 # Installation
 
-If you use Cocoapods, add the `ShakeReport` pod to your `Podfile`.
-
-OR
-
 Add those frameworks to your target:
 
 * QuartzCore
@@ -49,7 +45,7 @@ Build settings > Precompile prefix header = Yes
 
 # Usage
 
-**Shake** the iDevice when you want to report something. A Mail Composer view will appear with all the information that will be send. The tester can add some explanation, and change the recipient of the email.
+**Shake** the device when you want to report something. A Mail Composer view will appear with all the information that will be send. The tester can add some explanation, and change the recipient of the email.
 
 # Configurations
 
