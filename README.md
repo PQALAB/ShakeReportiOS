@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/jayztemplier/ShakeReport.png)](https://travis-ci.org/jayztemplier/ShakeReport.png)
 
-# BetaCrashReporteriOS
-BetaCrashReporter is a small library which make easy for your testers to report bugs.
+# ShakeReporteriOS
+ShakeReporter is a small library which make easy for your testers to report bugs.
 Shake the iDevice, and they will send:
 
 * a screenshot of the current view
